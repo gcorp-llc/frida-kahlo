@@ -13,7 +13,7 @@ import Contact from "./pages/Contact";
 import ProductDetail from "./shop/ProductDetail";
 import Profile from "./user/Profile";
 import Setting from "./user/setting";
-import Logout from "./auth/LogOut";
+import Logout from "./auth/Logout";
 import Login from "./auth/Login";
 import Register from "./auth/Register";
 
