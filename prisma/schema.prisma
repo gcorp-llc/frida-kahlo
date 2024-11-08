@@ -1,0 +1,128 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+
+  posts     Post[]
+  reviews   Review[]
+  cart      Cart?
+  wishlist  Wishlist?
+  checkouts Checkout[]
+}
+
+model Post {
+  id        Int      @id @default(autoincrement())
+  title     String
+  content   String
+  coverUrl  String
+  createdAt DateTime @default(now())
+  authorId  Int
+  author    User     @relation(fields: [authorId], references: [id])
+}
+
+model Product {
+  id          Int      @id @default(autoincrement())
+  name        String
+  description String
+  price       Float
+  imageUrl    String
+  createdAt   DateTime @default(now())
+
+  categoryId Int
+  category   Category @relation(fields: [categoryId], references: [id])
+
+  checkoutItems CheckoutItem[]
+  reviews       Review[]
+  cartItems     CartItem[]
+  wishlistItems WishlistItem[]
+}
+
+model Category {
+  id       Int       @id @default(autoincrement())
+  name     String
+  iconUrl  String
+  products Product[]
+}
+
+model Cart {
+  id     Int  @id @default(autoincrement())
+  userId Int  @unique
+  user   User @relation(fields: [userId], references: [id])
+
+  items CartItem[]
+}
+
+model CartItem {
+  id        Int @id @default(autoincrement())
+  quantity  Int
+  productId Int
+  cartId    Int
+
+  product Product @relation(fields: [productId], references: [id])
+  cart    Cart    @relation(fields: [cartId], references: [id])
+}
+
+model Checkout {
+  id          Int      @id @default(autoincrement())
+  userId      Int
+  totalAmount Float
+  status      String
+  createdAt   DateTime @default(now())
+
+  user  User           @relation(fields: [userId], references: [id])
+  items CheckoutItem[]
+}
+
+model CheckoutItem {
+  id         Int @id @default(autoincrement())
+  quantity   Int
+  productId  Int
+  checkoutId Int
+
+  product  Product  @relation(fields: [productId], references: [id])
+  checkout Checkout @relation(fields: [checkoutId], references: [id])
+}
+
+model Wishlist {
+  id     Int  @id @default(autoincrement())
+  userId Int  @unique
+  user   User @relation(fields: [userId], references: [id])
+
+  items WishlistItem[]
+}
+
+model WishlistItem {
+  id         Int @id @default(autoincrement())
+  productId  Int
+  wishlistId Int
+
+  product  Product  @relation(fields: [productId], references: [id])
+  wishlist Wishlist @relation(fields: [wishlistId], references: [id])
+}
+
+model Review {
+  id        Int      @id @default(autoincrement())
+  content   String
+  rating    Int      @default(0)
+  createdAt DateTime @default(now())
+
+  userId    Int
+  productId Int
+
+  user    User    @relation(fields: [userId], references: [id])
+  product Product @relation(fields: [productId], references: [id])
+}
