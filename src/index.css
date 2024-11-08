@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('./fonts/Vazirmatn-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    src: url('./fonts/Shabnam-Bold-FD-WOL.woff2') format('woff2'),
+        url('./fonts/Shabnam-Bold-FD-WOL.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Vazir', sans-serif;
+    direction: auto;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Shabnam', sans-serif;
+}
