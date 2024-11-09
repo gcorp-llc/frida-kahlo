@@ -6,47 +6,9 @@ export default {
     extend: {},
   },
   plugins: [daisyui],
-  // daisyui: {
-  //   themes: [
-  //     {
-  //       "frida-kahlo": {
-  //         primary: "#b300ff",
-  //         "primary-content": "#f0daff",
-  //         secondary: "#00b898",
-  //         "secondary-content": "#000c08",
-  //         accent: "#00d0ff",
-  //         "accent-content": "#001016",
-  //         neutral: "#221518",
-  //         "neutral-content": "#cacccb",
-  //         "base-100": "#221518",
-  //         "base-200": "#201302",
-  //         "base-300": "#231a1f",
-  //         "base-content": "#f7e1bc",
-  //         info: "#0081ca",
-  //         "info-content": "#00060f",
-  //         success: "#00b300",
-  //         "success-content": "#000c00",
-  //         warning: "#b03600",
-  //         "warning-content": "#f3d8cf",
-  //         error: "#ff4262",
-  //         "error-content": "#160103",
-
-  //         "--rounded-box": "1.7rem",
-  //         "--rounded-btn": "1.7rem",
-  //         "--rounded-badge": "1.9rem",
-  //         "--animation-btn": "0.25s",
-  //         "--animation-input": "0.2s",
-  //         "--btn-focus-scale": "0.95",
-  //         "--border-btn": "1px",
-  //         "--tab-border": "1px",
-  //         "--tab-radius": "0.5rem",
-  //       },
-  //     },
-  //   ],
-  // },
 
   daisyui: {
-    themes: [
+    themes: ["light",
       {
         "frida-kahlo": {
       "primary": "#2B1D1B",            // قهوه‌ای شکلاتی تیره برای المان‌های اصلی
