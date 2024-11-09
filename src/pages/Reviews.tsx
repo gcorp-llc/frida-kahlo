@@ -32,12 +32,12 @@ const reviews = [
       review: "",
     });
 
-    const handleChange = (e) => {
+    const handleChange = (e:any) => {
       const { name, value } = e.target;
       setFormData({ ...formData, [name]: value });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e:any) => {
       e.preventDefault();
       // Submit logic here (e.g., send to API)
       console.log("Form submitted:", formData);
@@ -160,7 +160,7 @@ const reviews = [
               value={formData.review}
               onChange={handleChange}
               className="p-2 border rounded w-full mt-4"
-              rows="4"
+              rows={4}
               required
             ></textarea>
             <button
