@@ -1,4 +1,4 @@
-export default function ProductCard({ product }) {
+export default function ProductCard(product: { name: string; price: number; discount: number; image: string; }) {
   const { name, price, discount, image } = product;
   const finalPrice = price - (price * discount) / 100; // محاسبه قیمت نهایی با تخفیف
 
