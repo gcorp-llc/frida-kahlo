@@ -26,7 +26,7 @@ export default function Hero() {
           >
             <img
               src="/frida-kahol.jpg"
-              className="max-w-lg  m-3 rounded-lg shadow-2xl"
+              className="w-fit md:max-w-lg  m-3 rounded-lg shadow-2xl"
             />
             <div>
               <h1 className="text-4xl font-bold">
