@@ -1,6 +1,145 @@
+
+import Faq from './Faq'
 export default function Footer() {
     return (
       <>
+        <div className="relative overflow-hidden rounded-2xl md:m-16 m-3">
+          <div className="absolute inset-0">
+            <img
+              src="https://images.unsplash.com/photo-1637273045211-df6d2e06b26e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxMXx8dGlnZXJ8ZW58MHwwfHx8MTcyMDg4OTc2MHww&ixlib=rb-4.0.3&q=80&w=1925&h625"
+              alt="Background Image"
+              className="object-cover object-center w-full h-full"
+            />
+          </div>
+          <div className="relative px-16 py-8 sm:px-8 lg:px-16 lg:py-14">
+            <div className="md:flex md:items-center md:space-x-12 lg:space-x-24">
+              <div className="grid grid-cols-1 gap-y-3 sm:grid-cols-2 gap-x-12 xl:gap-x-24">
+                <div>
+                  <ul className="space-y-3 text-base font-medium text-white">
+                    <li className="flex items-center">
+                      <svg
+                        className="w-5 h-5 mr-2"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M5 13l4 4L19 7"
+                        ></path>
+                      </svg>
+                      Item 1
+                    </li>
+                    <li className="flex items-center">
+                      <svg
+                        className="w-5 h-5 mr-2"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M5 13l4 4L19 7"
+                        ></path>
+                      </svg>
+                      Item 2
+                    </li>
+                    <li className="flex items-center">
+                      <svg
+                        className="w-5 h-5 mr-2"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M5 13l4 4L19 7"
+                        ></path>
+                      </svg>
+                      Item 3
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <ul className="space-y-3 text-base font-medium text-white">
+                    <li className="flex items-center">
+                      <svg
+                        className="w-5 h-5 mr-2"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M5 13l4 4L19 7"
+                        ></path>
+                      </svg>
+                      Item 1
+                    </li>
+                    <li className="flex items-center">
+                      <svg
+                        className="w-5 h-5 mr-2"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M5 13l4 4L19 7"
+                        ></path>
+                      </svg>
+                      Item 2
+                    </li>
+                    <li className="flex items-center">
+                      <svg
+                        className="w-5 h-5 mr-2"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M5 13l4 4L19 7"
+                        ></path>
+                      </svg>
+                      Item 3
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="mt-10 md:mt-0">
+                <a
+                  className="inline-flex items-center px-9 py-3.5 mt-5 text-base font-bold text-white transition-all duration-200 bg-orange-500 border border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:bg-orange-500 hover:bg-opacity-90 rounded-xl no-underline"
+                  href="#"
+                >
+                  {" "}
+                  Subscribe Now!
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <Faq/>
+        
         <footer className="footer bg-base-200 text-base-content p-10">
           <nav>
             <h6 className="footer-title">Services</h6>
