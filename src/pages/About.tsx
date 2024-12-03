@@ -78,6 +78,13 @@ export default function About() {
             <hr />
           </li>
           <li>
+            <div className="timeline-start m-5">
+              <img
+                className="rounded-2xl shadow-2xl"
+                src="/img/timeline/portrait-of-my-father.jpg"
+                alt=""
+              />
+            </div>
             <hr />
             <div className="timeline-middle">
               <svg
@@ -94,16 +101,33 @@ export default function About() {
               </svg>
             </div>
             <div className="timeline-end mb-10">
-              <time className="font-mono italic">1998</time>
-              <div className="text-lg font-black">iMac</div>
-              iMac is a family of all-in-one Mac desktop computers designed and
-              built by Apple Inc. It has been the primary part of Apple's
-              consumer desktop offerings since its debut in August 1998, and has
-              evolved through seven distinct forms
+              <time className="font-mono italic">۱۹۵۱</time>
+              <div className="text-lg font-black">
+                پرتره‌ی فریدا از پدرش گیرمو کالو
+              </div>
+              یک یهودی آلمانی‌تبار با چشم‌های گود افتاده و سبیل پرپشت، «گیرمو
+              کالو» سال ۱۸۹۱، در سن ۱۹ سالگی به مکزیک نقل‌مکان کرد. پس از اینکه
+              همسر اولش هنگام وضع‌حمل جان خود را از دست داد، او با «ماتیلد
+              کالدرون» ازدواج کرد، یک دختر کاتولیک با اصل‌ونسبِ هندی-اسپانیایی.
+              فریدا در سال ۱۹۳۶، اصل‌ونسب پیچیده‌اش را در یک نقاشی به نمایش
+              گذاشت. او همچنین عاشق پدرش بود و سال ۱۹۵۱ پرتره‌ی او را کشید.
+              دخترک در توصیف پدر می‌گفت: «بخشنده، باهوش و خوب» اما نسبت به مادرش
+              دیدگاه‌های متناقضی داشت. او را «نجیب، فعال و خردمند» می‌دانست اما
+              نسبت به تفکرات مذهبی، حسابگری و بی‌رحم‌های گاه‌به‌گاه مادر انتقاد
+              داشت. فریدا درباره‌ی ماتیلد کالدرون می‌گوید:«او بلد نبود بنویسد یا
+              بخواند. تنها پول شمردن را بلد بود».
             </div>
             <hr />
           </li>
           <li>
+            <div className="timeline-end m-5">
+              <img
+                className="rounded-2xl shadow-2xl"
+                src="/img/timeline/thinking-about-death.jpg"
+                alt=""
+              />
+            </div>
+            <hr />
             <hr />
             <div className="timeline-middle">
               <svg
@@ -120,19 +144,35 @@ export default function About() {
               </svg>
             </div>
             <div className="timeline-start mb-10 md:text-end">
-              <time className="font-mono italic">2001</time>
-              <div className="text-lg font-black">iPod</div>
-              The iPod is a discontinued series of portable media players and
-              multi-purpose mobile devices designed and marketed by Apple Inc.
-              The first version was released on October 23, 2001, about 8+1⁄2
-              months after the Macintosh version of iTunes was released. Apple
-              sold an estimated 450 million iPod products as of 2022. Apple
-              discontinued the iPod product line on May 10, 2022. At over 20
-              years, the iPod brand is the oldest to be discontinued by Apple
+              <time className="font-mono italic">1943</time>
+              <div className="text-lg font-black">اندیشیدن به مرگ</div>
+              فریدا رویای پزشک‌ شدن در سر داشت و در کلاس‌های زیست‌شناسی،
+              جانورشناسی و کالبدشناسی شرکت می‌کرد. او علم و دانشی که در این
+              دوران به‌دست آورد را بعدها به پرتره‌هایش تزریق کرد تا
+              واقع‌گرایانه‌تر شوند. او همچنین علاقه‌ی شدیدی به فلسفه داشت و
+              همواره می‌خواست با چیزهایی که می‌داند، فخر بفروشد. «هایدن هررا»،
+              نویسنده‌ی کتاب «فریدا: زندگی‌نامه‌ای از فریدا کالو» می‌گوید او
+              جلوی دوستش «آلخاندرو گومز آریاس» گریه می‌کرد تا بتواند یکی از آثار
+              فیلسوف آلمانی «اسوالد اشپنگلر» را قرض بگیرد و در اتوبوس بخواند. او
+              حس شوخ‌طبعی بالایی داشت و اغلب به دنبال تفریح و سرگرمی‌های تازه‌
+              بود؛ دوستانش هم با این اخلاقیات آشنایی داشتند (کسانی که اکثرشان در
+              ادامه به رهبران حزب چپ مکزیک تبدیل شدند). و بعد در «۱۷ سپتامبر
+              ۱۹۲۵»، اتوبوسی که او و دوستانش را از مدرسه به خانه می‌رساند با یک
+              تراموا تصادف کرد. فریدا به‌شدت مجروح شد و یک تکه فلز شکست و به لگن
+              او برخورد کرد. چند نفر در این حادثه کشته شدند و دکترهای بیمارستانی
+              که فریدای ۱۸ ساله در آنجا بستری بود، به این نتیجه رسیدند که او جان
+              خود را از دست خواهد داد.
             </div>
             <hr />
           </li>
           <li>
+            <div className="timeline-start m-5">
+              <img
+                className="rounded-2xl shadow-2xl"
+                src="/img/timeline/frieda-and-diego-rivera-.jpg"
+                alt=" frieda-and-diego-rivera"
+              />
+            </div>
             <hr />
             <div className="timeline-middle">
               <svg
@@ -149,19 +189,34 @@ export default function About() {
               </svg>
             </div>
             <div className="timeline-end mb-10">
-              <time className="font-mono italic">2007</time>
-              <div className="text-lg font-black">iPhone</div>
-              iPhone is a line of smartphones produced by Apple Inc. that use
-              Apple's own iOS mobile operating system. The first-generation
-              iPhone was announced by then-Apple CEO Steve Jobs on January 9,
-              2007. Since then, Apple has annually released new iPhone models
-              and iOS updates. As of November 1, 2018, more than 2.2 billion
-              iPhones had been sold. As of 2022, the iPhone accounts for 15.6%
-              of global smartphone market share
+              <time className="font-mono italic">1931</time>
+              <div className="text-lg font-black">
+                پرتره‌ی فریدا از شب عروسی‌اش با دیه‌گو ریورا
+              </div>
+              «لوپه مارین» همسر دوم ریورا، همیشه از دیدن دخترک شگفت‌زده می‌شد و
+              می‌گفت: «این دختر به‌اصطلاح جوان، طوری تکیلا می‌نوشد که گویی از
+              اعضای گروه موسیقی ماریاچی است». آن‌ها «۲۱ اوت ۱۹۲۹» ازدواج کردند.
+              فریدا بعدها گفت که والدینش این رابطه را «ازدواج یک فیل و یک فاخته»
+              توصیف می‌کردند. او سال ۱۹۳۱، یک نقاشی متفاوت براساس تصاویر مراسم
+              عروسی‌اش کشید که تضاد فیزیکی‌اش با همسرش را نشان می‌داد. آن‌ها یک
+              سال اول را در شهر «کورناواک» واقع در ایالت «مورلوس» زندگی کردند،
+              زیرا ریورا طبق قراردادی که با «دوایت مورو»، سفیر ایالات متحده
+              داشت، باید تعدادی نقاشی دیواری می‌کشید. فریدا همسر فداکار و متعهدی
+              بود، او هر روز ناهار می‌پخت و آن را برای ریورا می‌برد و حتی وی را
+              حمام می‌کرد. سال‌ها بعد، او یک ریورای برهنه را نقاشی کرد که همانند
+              یک نوزاد، سرش را روی پاهای فریدا گذاشته است.
             </div>
             <hr />
           </li>
+
           <li>
+            <div className="timeline-end m-5">
+              <img
+                className="rounded-2xl shadow-2xl"
+                src="/img/timeline/self-portrait-with-cropped-hair.jpg"
+                alt="self-portrait-with-cropped-hair"
+              />
+            </div>
             <hr />
             <div className="timeline-middle">
               <svg
@@ -177,16 +232,130 @@ export default function About() {
                 />
               </svg>
             </div>
-            <div className="timeline-start mb-10 md:text-end">
-              <time className="font-mono italic">2015</time>
-              <div className="text-lg font-black">Apple Watch</div>
-              The Apple Watch is a line of smartwatches produced by Apple Inc.
-              It incorporates fitness tracking, health-oriented capabilities,
-              and wireless telecommunication, and integrates with iOS and other
-              Apple products and services
+            <div className="timeline-start mb-10">
+              <time className="font-mono italic">1940</time>
+              <div className="text-lg font-black">پرتره‌ای با موهای کوتاه</div>
+              هنگامی که وضعیت جسمانی فریدا بدتر شد، ریورا از دوست مشترک آن‌ها،
+              دکتر آمریکایی، «لئو الوئسر» توصیه‌های پزشکی دریافت می‌کرد. الوئسر
+              بر این باور بود که مشکل اصلی فریدا، «بحران اعصاب» است و به دخترک
+              می‌گفت که برای بهبود، باید رابطه‌اش با ریورا را ترمیم کند. او در
+              نامه‌ای به فریدا نوشت: «دیه‌گو تو را عاشقانه دوست دارد، و تو هم
+              عاشق او هستی اما خودت بهتر از من می‌دانی که او جز تو، دو عشق دیگر
+              هم دارد: نقاشی و زنان. او هرگز یک همسر متعهد نبوده و نخواهد بود».
+              نامه‌ی الوئسر بر روی فریدا تاثیر گذاشت و او با این حقیقت تلخ کنار
+              آمد. دسامبر ۱۹۴۰، آن‎ها بار دیگر ازدواج کردند. این مصالحه چندان
+              دوام نیاورد و آشوب‌ها از راه رسید. مشاجره‌های فرید و همسرش ادامه
+              داشت و هر دو به یکدیگر خیانت می‌کردند. با وجود این، فریدا هرگز از
+              انجام کارهای سابق خسته نشد و همچنان برای ریورا آشپزی و خانه را با
+              گل‌های مختلف تزئین می‌کرد. آن‌ها روزهای مهم سال را جشن می‌گرفتند و
+              به گفته‌ی دخترخوانده‌اش، فریدا همواره خوش‌اخلاق بود و بلند
+              می‌خندید. در دهه‌ی پایانی زندگی‌اش، فریدا چند عمل جراحی دردناک روی
+              کمر و پای راستش را تجربه کرد (سال ۱۹۵۳، پای راست او از زانو به
+              پایین قطع شد). او برای تسکین دردها، به نوشیدن پناه برد و به
+              داروهای آرامش‌بخش اعتیاد پیدا کرد. قرص‌ها و الکل روی دستانش هم
+              تاثیر گذاشت و لرزش آن‌ها به او اجازه نمی‌داد تا بتواند با ظرافت
+              نقاشی کند.
             </div>
+            <hr />
+          </li>
+
+          <li>
+            <div className="timeline-start m-5">
+              <img
+                className="rounded-2xl shadow-2xl"
+                src="/img/timeline/viva-la-vida-watermelons-.jpg"
+                alt="viva-la-vida-watermelons"
+              />
+            </div>
+            <hr />
+            <div className="timeline-middle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="h-5 w-5"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </div>
+            <div className="timeline-end mb-10">
+              <time className="font-mono italic">1954</time>
+              <div className="text-lg font-black">زنده باد زندگی</div>
+              بهار ۱۹۵۳، به همت دوست نزدیک، «لولا آلوارز براوو» (اولین زن عکاس
+              مکزیکی) فریدا برای نخستین‌ بار نمایشگاه‌ تک‌نفره‌ای را در
+              مکزیکوسیتی برپا کرد. او اگرچه به تازگی پایش را عمل کرده بود اما
+              نمی‌خواست شب افتتاحیه را از دست دهد و با آمبولانس به محل برگزاری
+              نمایشگاه آمد. مطابق انتظار، آثارش موردتحسین قرار گرفت و او یکی از
+              بهترین روزهای زندگی چالش‌برانگیزش را تجربه کرد. او هشت روز قبل از
+              مرگ، سوار بر ویلچر، در تظاهرات اعتراضی مکزیک علیه کودتای گواتمالا
+              شرکت کرد. با اینکه زندگی فریدا تحت‌تأثیر بیماری‌، ضعف فیزیکی و
+              آشفتگی‌های احساسی قرار داشت اما او هرگز تسلیم نشد، از چیزهای عادی
+              زندگی لذت می‌برد، بذله‌گو و شیرین‌زبان بود و سعی می‌کرد در آثارش
+              خلاقیت به خرج دهد. تنها چند روز پیش از مرگ (۱۳ ژوئیه ۱۹۵۴)، او روی
+              یک نقاشی از هندوانه، واژه‌ی «زنده باد زندگی» را حک کرد. با گذشت
+              چندین دهه، هنوز هم تئوری‌های متفاوتی پیرامون مرگ او وجود دارد و
+              بسیاری می‌گویند که خودکشی کرده است اما با یک نگاه اجمالی به زندگی
+              وی، به وضوح مشخص است که او با همه‌ی دردهایی که داشت، از زندگی کردن
+              لذت می‌برد.
+            </div>
+            <hr />
           </li>
         </ul>
+
+        <section className=" body-font">
+          <div className="container px-5 py-24 mx-auto">
+            <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                className="inline-block w-8 h-8 text-gray-400 mb-8"
+                viewBox="0 0 975.036 975.036"
+              >
+                <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+              </svg>
+              <p className="leading-relaxed text-lg">
+                فریدا که در ۴۷ سالگی به‌دلیل ابتلا به «آمبولی ریه» از جهان رفت،
+                در هنر معاصر هنرمند مهمی به حساب می‌آید. نقاشی‌های او در
+                گالری‌های مختلف جهان به نمایش گذاشته‌ می‌شوند و تابلوهای نقاشی
+                بدلی‌اش همواره از پرفروش‌ترین‌ها بوده‌اند. «ژانت لندی»، مسئول
+                سابق موزه‌ی «هنرهای زیبای هیوستون» در رابطه با دلایل محبوبیت این
+                نقاش می‌گوید: «کالو تجربیات شخصی زنان را به یک موضوع مهم هنری
+                تبدیل کرد اما به دلیل محتواهای احساسی شدید، آثار وی از مرزهای
+                جنسیتی عبور می‌کند. بی‌پرده و قدرتمند، آن‌ها بینندگان [اعم از زن
+                و مرد] را مجبور به واکنش می‌کنند».
+              </p>
+              <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+
+              <a
+                className="flex flex-wrap justify-center"
+                href="https://www.youtube.com/@DrManhattans"
+              >
+                <svg
+                  className="w-6 h-6"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"
+                  />
+                </svg>
+                <span className="me-3"> Dr Manhattan</span>
+              </a>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );
