@@ -1,9 +1,15 @@
 import ProductCard from "./ProductCard";
 
-
 export default function HomeProduct() {
+  type ProductType = {
+    id: number;
+    name: string;
+    price: number;
+    discount: number;
+    image: string;
+  };
   // لیست محصولات
-  const products = [
+  const products: ProductType[] = [
     {
       id: 1,
       name: "محصول 1",
@@ -60,8 +66,8 @@ export default function HomeProduct() {
       discount: 30,
       image: "/img/product/ice-cream-1.jpg",
     },
-   
   ];
+
   return (
     <>
       <div className="content-center m-3">
