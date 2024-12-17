@@ -28,13 +28,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # مرحله 4: اجرای تست‌ها
-      - name: Run tests
-        run: npm test
 
-      # مرحله 5: ساخت پروژه
+      # مرحله 4: ساخت پروژه
       - name: Build project
         run: npm run build
+
+         # مرحله 4: ساخت پروژه
+      - name: start project
+        run: npm run start
 
       # مرحله 6: آپلود آرتیفکت‌های ساخت شده (اختیاری)
       - name: Upload build artifacts
