@@ -4,4 +4,4 @@ jobs:
   ubuntu:
     runs-on:ubuntu-latest
     steps:
-      -run:npm run dev
+      -run:date
