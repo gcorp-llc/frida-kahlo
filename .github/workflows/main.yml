@@ -1,7 +1,44 @@
-name:Run Npm
-on:push
+name: React CI/CD
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
 jobs:
-  ubuntu:
-    runs-on:ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
+
     steps:
-      -run:date
+      # مرحله 1: کلون کردن مخزن
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # مرحله 2: تنظیم نسخه Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16' # نسخه Node.js مورد نیاز پروژه (می‌توانید تغییر دهید)
+          cache: 'npm'
+
+      # مرحله 3: نصب وابستگی‌ها
+      - name: Install dependencies
+        run: npm install
+
+      # مرحله 4: اجرای تست‌ها
+      - name: Run tests
+        run: npm test
+
+      # مرحله 5: ساخت پروژه
+      - name: Build project
+        run: npm run build
+
+      # مرحله 6: آپلود آرتیفکت‌های ساخت شده (اختیاری)
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: build/
