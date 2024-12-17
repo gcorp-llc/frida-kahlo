@@ -33,9 +33,7 @@ jobs:
       - name: Build project
         run: npm run build
 
-         # مرحله 4: ساخت پروژه
-      - name: start project
-        run: npm run dev
+     
 
       # مرحله 6: آپلود آرتیفکت‌های ساخت شده (اختیاری)
       - name: Upload build artifacts
