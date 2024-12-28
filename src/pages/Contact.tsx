@@ -7,34 +7,41 @@ export default function Contact() {
             <iframe
               width="100%"
               height="100%"
-              className="absolute inset-0"
+              className="absolute inset-0 bg-amber-500 opacity-85"
               title="map"
               scrolling="no"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13608.69414356148!2d52.54400260694076!3d29.623634309463423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fb20d0c8c85f2e3%3A0x6d0c5b8aef6b4cf6!2z2LTbjNix2KfYstiMINin2LPYqtin2YYg2YHYp9ix2LPYjCDYp9uM2LHYp9mG!5e0!3m2!1sfa!2s!4v1732876361893!5m2!1sfa!2s"
             ></iframe>
 
-          
-            <div className="bg-white relative flex flex-wrap py-6 rounded-xl shadow-md">
+            <div className="bg-amber-500 text-base-100 relative flex flex-wrap py-6 rounded-xl shadow-md">
               <div className="lg:w-1/2 px-6">
-                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
+                <h2 className="title-font font-semibold text-base-100 tracking-widest text-xs">
                   ADDRESS
                 </h2>
-                <p className="mt-1">
+                <p className="mt-1 text-base-100">
                   Photo booth tattooed prism, portland taiyaki hoodie neutra
                   typewriter
                 </p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                <h2 className="title-font font-semibold tracking-widest text-xs">
+                <h2 className="title-font font-semibold tracking-widest text-base-100 text-xs">
                   EMAIL
                 </h2>
-                <a className="text-indigo-500 leading-relaxed">
-                  example@email.com
+                <a
+                  href="mailto:hosseinradvictor@gmail.com"
+                  className="text-base-100 leading-relaxed"
+                >
+                  hosseinradvictor@gmail.com
                 </a>
-                <h2 className="title-font font-semibold tracking-widest text-xs mt-4">
+                <h2 className="title-font font-semibold tracking-widest text-xs mt-4 text-base-100">
                   PHONE
                 </h2>
-                <p className="leading-relaxed">123-456-7890</p>
+                <a
+                  href="tel:09370290168"
+                  className="leading-relaxed text-base-100"
+                >
+                  09370290168
+                </a>
               </div>
             </div>
           </div>
@@ -70,9 +77,7 @@ export default function Contact() {
                 data-ms-editor="true"
               ></textarea>
             </div>
-            <button className="btn btn-info">
-              Button
-            </button>
+            <button className="btn btn-info">Button</button>
             <p className="text-xs text-gray-500 mt-3">
               Chicharrones blog helvetica normcore iceland tousled brook viral
               artisan.
