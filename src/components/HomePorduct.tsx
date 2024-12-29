@@ -28,7 +28,7 @@ export default function HomeProduct() {
       id: 3,
       name: "محصول 3",
       price: 75000,
-      discount: 15,
+      discount: 0,
       image: "/img/product/coffee-3.avif",
     },
     {
@@ -71,7 +71,7 @@ export default function HomeProduct() {
   return (
     <>
       <div className="content-center m-3">
-        <div className="grid md:grid-cols-4 grid-cols-1 m-6 md:gap-2 justify-center">
+        <div className="grid md:grid-cols-4 grid-cols-1 m-3 md:gap-2 justify-center">
           {products.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
