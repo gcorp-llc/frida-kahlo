@@ -2,7 +2,7 @@ export default function CartItem() {
     return (
       <>
         <div className="card card-side bg-base-100 shadow-xl relative my-2">
-          <button className="btn text-white absolute top-0 right-0 z-10 opacity-90">
+          <button className="btn text-white absolute top-0 right-0  opacity-90">
             <div className="badge ">900،000</div>
             تومان
           </button>

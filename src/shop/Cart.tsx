@@ -1,6 +1,6 @@
 
 import CalculatingCosts from "../components/Cart/CalculatingCosts";
-import CardPayment from "../components/Cart/Cardpayment";
+import CardPayment from "../components/Cart/CardPayment";
 import CartItem from "../components/Cart/CartItem";
 import CouponCheck from "../components/Cart/CouponCheck";
 import ShippingDetails from "../components/Cart/ShippingDetails";
