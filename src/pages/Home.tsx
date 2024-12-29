@@ -1,5 +1,5 @@
 import Hero from "../components/Hero";
-import HomeProduct from "../components/HomePorduct";
+import HomeProduct from "../components/HomeProduct";
 import MenuItems from "../components/MenuItems";
 
 export default function Home() {

@@ -1,7 +1,9 @@
-import HomeProduct from "../components/HomePorduct";
+import HomeProduct from "../components/HomeProduct";
+import MenuItems from "../components/MenuItems";
 export default function Menu() {
   return (
     <>
+      <MenuItems />
       <HomeProduct />
       <div className="p-1 flex flex-wrap items-center justify-center">
         <div className="flex-shrink-0 m-6 relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-lg group">
