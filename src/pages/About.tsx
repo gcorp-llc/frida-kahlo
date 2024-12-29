@@ -31,7 +31,7 @@ export default function About() {
         </div>
       </div>
       <div className="">
-        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical hidden md:block mx-5 text-justify" dir="rtl">
           <li>
             <div className="timeline-end m-5">
               <img
