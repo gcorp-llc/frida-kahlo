@@ -1,13 +1,13 @@
 export default function Blog() {
   return (
     <>
-      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto" >
         <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
           <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">
-            Insights
+           روزنامه کافه
           </h2>
           <p className="mt-1 ">
-            Stay in the know with insights from industry experts.
+            اخبار روز کافه ما را مطالعه نمایید
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export default function Blog() {
                 Preline's innovative broadcast studio
               </p>
               <p className="mt-5 inline-flex items-center gap-x-1 text-sm text-amber-600 decoration-2 group-hover:underline group-focus:underline font-medium">
-                Read more
+                مطالعه بیشتر 
                 <svg
                   className="shrink-0 size-4"
                   xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +70,7 @@ export default function Blog() {
                 capabilities like badge printing and lead retrieval
               </p>
               <p className="mt-5 inline-flex items-center gap-x-1 text-sm text-amber-600 decoration-2 group-hover:underline group-focus:underline font-medium">
-                Read more
+                مطالعه بیشتر 
                 <svg
                   className="shrink-0 size-4"
                   xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +146,7 @@ export default function Blog() {
                   Preline's innovative broadcast studio
                 </p>
                 <p className="mt-4 inline-flex items-center gap-x-1 text-sm text-amber-600 decoration-2 group-hover:underline group-focus:underline font-medium">
-                  Read more
+                  مطالعه بیشتر 
                   <svg
                     className="shrink-0 size-4"
                     xmlns="http://www.w3.org/2000/svg"
@@ -188,7 +188,7 @@ export default function Blog() {
                   capabilities like badge printing and lead retrieval
                 </p>
                 <p className="mt-4 inline-flex items-center gap-x-1 text-sm text-amber-600 decoration-2 group-hover:underline group-focus:underline font-medium">
-                  Read more
+                  مطالعه بیشتر 
                   <svg
                     className="shrink-0 size-4"
                     xmlns="http://www.w3.org/2000/svg"
@@ -229,7 +229,7 @@ export default function Blog() {
                   How to make objectives and key results work for your company
                 </p>
                 <p className="mt-4 inline-flex items-center gap-x-1 text-sm text-amber-600 decoration-2 group-hover:underline group-focus:underline font-medium">
-                  Read more
+                  مطالعه بیشتر 
                   <svg
                     className="shrink-0 size-4"
                     xmlns="http://www.w3.org/2000/svg"
@@ -270,7 +270,7 @@ export default function Blog() {
                   Six approaches to bringing your People strategy to life
                 </p>
                 <p className="mt-4 inline-flex items-center gap-x-1 text-sm text-amber-600 decoration-2 group-hover:underline group-focus:underline font-medium">
-                  Read more
+                  مطالعه بیشتر 
                   <svg
                     className="shrink-0 size-4"
                     xmlns="http://www.w3.org/2000/svg"

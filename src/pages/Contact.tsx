@@ -10,7 +10,8 @@ export default function Contact() {
               className="absolute inset-0 bg-amber-500 opacity-85"
               title="map"
               scrolling="no"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13608.69414356148!2d52.54400260694076!3d29.623634309463423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fb20d0c8c85f2e3%3A0x6d0c5b8aef6b4cf6!2z2LTbjNix2KfYstiMINin2LPYqtin2YYg2YHYp9ix2LPYjCDYp9uM2LHYp9mG!5e0!3m2!1sfa!2s!4v1732876361893!5m2!1sfa!2s"
+              loading="lazy"
+              src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15341.340387404214!2d52.53849283275984!3d29.625610004882137!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfa!2s!4v1735499883553!5m2!1sfa!2s"
             ></iframe>
 
             <div className="bg-amber-500 text-base-100 relative flex flex-wrap py-6 rounded-xl shadow-md">
@@ -83,17 +84,14 @@ export default function Contact() {
               <label className="form-control">
                 <div className="label">
                   <span className="label-text">پیام</span>
-                 
                 </div>
                 <textarea
                   className="textarea textarea-bordered h-32"
                   placeholder="متن پیام خود را وارد نمایید"
                 ></textarea>
-               
               </label>
             </div>
             <button className="btn btn-success">ارسال</button>
-          
           </div>
         </div>
       </section>
