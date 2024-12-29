@@ -16,11 +16,11 @@ export default function CardPayment() {
               <img src="/img/card/blu.png" alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
+              <h2 className="card-title">بلو بانک</h2>
               <p className="text-lg font-semibold">**** **** **** 2137</p>
               <div className="card-actions justify-end">
                 <button className="btn bg-amber-500 text-gray-800 rounded-3xl w-full">
-                  خرید
+                  پرداخت با این کارت
                 </button>
               </div>
             </div>
@@ -32,11 +32,11 @@ export default function CardPayment() {
               <img src="/img/card/jamara.png" alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
+              <h2 className="card-title">بانک حومرا</h2>
               <p className="text-lg font-semibold">**** **** **** 2137</p>
               <div className="card-actions justify-end">
                 <button className="btn bg-amber-500 text-gray-800 rounded-3xl w-full">
-                  خرید
+                  پرداخت با این کارت
                 </button>
               </div>
             </div>
