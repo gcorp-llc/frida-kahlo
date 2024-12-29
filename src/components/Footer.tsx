@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="relative overflow-hidden rounded-2xl md:m-16 m-3">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1637273045211-df6d2e06b26e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxMXx8dGlnZXJ8ZW58MHwwfHx8MTcyMDg4OTc2MHww&ixlib=rb-4.0.3&q=80&w=1925&h625"
+            src="/img/footer.jpeg"
             alt="Background Image"
             className="object-cover object-center w-full h-full"
           />
