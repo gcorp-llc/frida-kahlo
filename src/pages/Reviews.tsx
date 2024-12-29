@@ -5,8 +5,8 @@ export default function Reviews() {
     <>
       <section className="body-font">
         <div className="container px-5 py-24 mx-auto">
-          <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">
-            Testimonials
+          <h1 className="text-3xl font-medium title-font text-white mb-12 text-center">
+           نظرات و پیشنهادات
           </h1>
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/2 w-full">
@@ -32,7 +32,7 @@ export default function Reviews() {
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-gray-900">
+                    <span className="title-font font-medium text-gray-300">
                       Holden Caulfield
                     </span>
                     <span className="text-gray-500 text-sm">UI DEVELOPER</span>
@@ -63,7 +63,7 @@ export default function Reviews() {
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-gray-900">
+                    <span className="title-font font-medium text-gray-300">
                       Alper Kamu
                     </span>
                     <span className="text-gray-500 text-sm">DESIGNER</span>
@@ -79,7 +79,7 @@ export default function Reviews() {
         <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
           <div className="mb-10 space-y-4 px-6 md:px-0">
             <h2 className="text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
-              We have some fans.
+             بهترین تجربه ها
             </h2>
           </div>
 
@@ -253,56 +253,57 @@ export default function Reviews() {
         </div>
       </div>
 
-      <div className="py-6 flex flex-col justify-center sm:py-12">
+      <div className="py-3 flex flex-col justify-center sm:py-12">
         <div className="relative py-3 sm:max-w-2xl sm:mx-auto">
           <div className="absolute inset-0 bg-gradient-to-r from-base-100 to-base-100 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
           <div className="text-white relative px-4 py-10 bg-base-200 shadow-lg sm:rounded-3xl sm:p-20">
-            <div className="text-center pb-6">
-              <h1 className="text-3xl">Contact Us!</h1>
+            <div className="text-center m-3 pb-3 w-96">
+              <h1 className="text-3xl">نظر سنجی</h1>
 
               <p className="text-gray-300">
-                Fill up the form below to send us a message.
+                لظفا نظرات خود را با ما در میان بگذارید
               </p>
             </div>
 
-            <form>
-              <input
-                className="shadow mb-4 appearance-none border rounded-xl w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                type="text"
-                placeholder="Name"
-                name="name"
-              />
-
-              <input
-                className="shadow mb-4 appearance-none border rounded-xl w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                type="email"
-                placeholder="Email"
-                name="email"
-              />
-
-              <input
-                className="shadow mb-4 appearance-none border rounded-xl w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                type="text"
-                placeholder="Subject"
-                name="_subject"
-              />
-
-              <textarea
-                className="shadow mb-4 min-h-0 appearance-none border rounded-2xl h-64 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                placeholder="Type your message here..."
-                name="message"
-              ></textarea>
+            <form dir="rtl">
+              <div className="relative mb-4">
+                <label className="form-control w-full">
+                  <div className="label">
+                    <span className="label-text">نام </span>
+                  </div>
+                  <input
+                    type="text"
+                    placeholder="نام خود را وارد نمایید"
+                    className="input input-bordered w-full"
+                  />
+                </label>
+              </div>
+              <div className="relative mb-4">
+                <label className="form-control w-full">
+                  <div className="label">
+                    <span className="label-text">ایمیل</span>
+                  </div>
+                  <input
+                    type="text"
+                    placeholder="ایمیل خود را وارد نمایید"
+                    className="input input-bordered w-full"
+                  />
+                </label>
+              </div>
+              <div className="relative mb-4">
+                <label className="form-control">
+                  <div className="label">
+                    <span className="label-text">پیام</span>
+                  </div>
+                  <textarea
+                    className="textarea textarea-bordered h-32"
+                    placeholder="متن پیام خود را وارد نمایید"
+                  ></textarea>
+                </label>
+              </div>
 
               <div className="flex justify-between">
-                <input
-                  className="shadow  btn btn-success tex font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                  type="submit"
-                  value="Send ➤"
-                />
-                <input
-                  className="shadow btn btn-success font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                  type="reset"
-                />
+                <button className="btn btn-success w-full">ارسال</button>
               </div>
             </form>
           </div>
