@@ -45,43 +45,55 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <div className="lg:w-1/3 md:w-1/2  flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-            <h2 className=" text-lg mb-1 font-medium title-font">Feedback</h2>
+          <div
+            className="lg:w-1/3 md:w-1/2  flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+            dir="rtl"
+          >
+            <h2 className=" text-lg mb-1 font-medium title-font">
+              ارتباط با ما
+            </h2>
             <p className="leading-relaxed mb-5 ">
-              Post-ironic portland shabby chic echo park, banjo fashion axe
+              شما میتوانید از طریق فرم زیر با ما در ارتباط باشید
             </p>
             <div className="relative mb-4">
-              <label className="leading-7 text-sm ">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                className="w-full  rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
+              <label className="form-control w-full">
+                <div className="label">
+                  <span className="label-text">نام </span>
+                </div>
+                <input
+                  type="text"
+                  placeholder="نام خود را وارد نمایید"
+                  className="input input-bordered w-full"
+                />
+              </label>
             </div>
             <div className="relative mb-4">
-              <label className="leading-7 text-sm ">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className="w-full  rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
+              <label className="form-control w-full">
+                <div className="label">
+                  <span className="label-text">ایمیل</span>
+                </div>
+                <input
+                  type="text"
+                  placeholder="ایمیل خود را وارد نمایید"
+                  className="input input-bordered w-full"
+                />
+              </label>
             </div>
             <div className="relative mb-4">
-              <label className="leading-7 text-sm ">Message</label>
-              <textarea
-                id="message"
-                name="message"
-                className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                data-ms-editor="true"
-              ></textarea>
+              <label className="form-control">
+                <div className="label">
+                  <span className="label-text">پیام</span>
+                 
+                </div>
+                <textarea
+                  className="textarea textarea-bordered h-32"
+                  placeholder="متن پیام خود را وارد نمایید"
+                ></textarea>
+               
+              </label>
             </div>
-            <button className="btn btn-info">Button</button>
-            <p className="text-xs text-gray-500 mt-3">
-              Chicharrones blog helvetica normcore iceland tousled brook viral
-              artisan.
-            </p>
+            <button className="btn btn-success">ارسال</button>
+          
           </div>
         </div>
       </section>
