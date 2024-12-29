@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import HomeIcon from "./icons/HoneIcon";
+import HomeIcon from "./icons/HomeIcon";
 import MenuIcon from "./icons/MenuIcon";
 import NewsIcon from "./icons/NewsIcon";
 import ReviewIcon from "./icons/ReviewIcon";
